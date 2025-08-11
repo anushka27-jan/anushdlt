@@ -80,7 +80,7 @@ This project includes VS Code configuration for:
 This project is for educational and screening purposes only. Please consult with healthcare professionals for medical advice.
 \`\`\`
 
-```text file=".gitignore"
+\`\`\`text file=".gitignore"
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
