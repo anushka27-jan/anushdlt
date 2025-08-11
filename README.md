@@ -1,119 +1,62 @@
-# AnushDLT - Depression Level Assessment Tool
+# Distraction Timer - Digital Wellness Tool
 
-A comprehensive mental health screening application built with Next.js 14, TypeScript, and Tailwind CSS.
+A smart productivity app that helps you manage social media usage by blurring your screen when you exceed your set time limits.
 
-## 🚀 Quick Start
+## 🚀 Features
 
-1. **Download** this project folder
-2. **Open** the folder in VS Code
-3. **Install dependencies**: `npm install`
-4. **Start development server**: `npm run dev`
-5. **Open browser**: `http://localhost:3000`
+- **Smart Timer**: Set custom time limits for social media usage
+- **Screen Blur**: Automatically blurs screen when time limit is exceeded
+- **Social Media Tracking**: Monitor usage across different platforms
+- **Warning System**: Get alerts before reaching your time limit
+- **Customizable Settings**: Adjust blur intensity, warning thresholds, and time limits
+- **Focus Statistics**: Track your daily productivity and focus scores
+- **Quick Actions**: Pre-set focus sessions (5 min, 25 min Pomodoro)
 
-## ✨ Features
+## 🎯 How It Works
 
-- **Professional Assessment**: 9-question depression screening based on PHQ-9
-- **Real-time Progress**: Interactive questionnaire with progress tracking
-- **Intelligent Scoring**: Backend API processes responses and calculates severity levels
-- **Personalized Results**: Color-coded results with tailored recommendations
-- **Crisis Resources**: Immediate support information for higher severity levels
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+1. **Set Your Limit**: Choose how long you want to spend on social media (default: 10 minutes)
+2. **Start Timer**: Begin tracking your usage time
+3. **Get Warnings**: Receive alerts when you're approaching your limit
+4. **Screen Blur**: When time limit is exceeded, screen automatically blurs
+5. **Take Action**: Choose to take a break or reset the timer
 
-## 📁 Project Structure
+## ⚙️ Settings
 
-\`\`\`
-anushdlt-app/
-├── app/                    # Next.js App Router
-│   ├── api/assessment/     # Backend API endpoint
-│   ├── assessment/         # Assessment questionnaire page
-│   ├── results/           # Results display page
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout
-│   └── page.tsx          # Landing page
-├── components/ui/         # Reusable UI components
-├── lib/                   # Utility functions
-└── .vscode/              # VS Code configuration
-\`\`\`
+- **Time Limit**: 5 minutes to 60 minutes
+- **Warning Threshold**: 50% to 95% of time limit
+- **Blur Intensity**: 5px to 20px blur effect
+- **Sound Alerts**: Enable/disable audio notifications
 
-## 🎯 Severity Levels
+## 🎨 Features
 
-- **Minimal (0-4)**: Basic wellness recommendations
-- **Mild (5-9)**: Lifestyle changes and counseling suggestions  
-- **Moderate (10-14)**: Professional help strongly recommended
-- **Severe (15+)**: Immediate professional intervention advised
+### Timer Controls
+- Start/Pause/Reset functionality
+- Real-time progress tracking
+- Color-coded time display (green → yellow → red)
 
-## ⚠️ Important Disclaimer
+### Social Media Monitoring
+- Track usage across 6 major platforms:
+  - Instagram 📷
+  - Facebook 👥
+  - Twitter 🐦
+  - TikTok 🎵
+  - YouTube 📺
+  - WhatsApp 💬
 
-This application is a screening tool and not a substitute for professional medical advice, diagnosis, or treatment. If you're experiencing thoughts of self-harm, please contact emergency services or a crisis helpline immediately.
+### Productivity Stats
+- Daily session count
+- Average session length
+- Longest break duration
+- Focus score calculation
 
-## 🆘 Crisis Resources
+### Smart Blur System
+- Customizable blur intensity
+- Glass effect overlay
+- Motivational break suggestions
+- Easy override options
 
-- National Suicide Prevention Lifeline: **988**
-- Crisis Text Line: Text **HOME** to **741741**
-- Emergency: **911**
+## 🚀 Getting Started
 
-## 🛠️ Technologies Used
-
-- Next.js 14 with App Router
-- TypeScript
-- Tailwind CSS
-- Radix UI Components
-- Lucide React Icons
-
-## 📝 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-
-## 🔧 VS Code Setup
-
-This project includes VS Code configuration for:
-- Debugging (server-side and client-side)
-- Auto-formatting with Prettier
-- ESLint integration
-- TypeScript support
-
-## 📄 License
-
-This project is for educational and screening purposes only. Please consult with healthcare professionals for medical advice.
-\`\`\`
-
-\`\`\`text file=".gitignore"
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-.env*.local
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+1. **Install dependencies**:
+   ```bash
+   npm install

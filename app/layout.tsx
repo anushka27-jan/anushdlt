@@ -6,8 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AnushDLT - Depression Level Assessment Tool",
-  description: "A confidential screening tool to help understand your mental health and emotional well-being",
+  title: "Distraction Timer - Digital Wellness Tool",
+  description: "Stay focused and manage your social media time with smart screen blur technology",
     generator: 'v0.dev'
 }
 
